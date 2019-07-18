@@ -97,7 +97,7 @@
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#portfolio" data-hash data-hash-offset="32">
+                                                        <a href="#blog" data-hash data-hash-offset="32">
                                                             Noticias
                                                         </a>
                                                     </li>
@@ -247,77 +247,72 @@
                 </section>
 
 
-                <section id="what-we-do" class="section section-no-border background-color-light m-none pb-none">
-                    <div class="container custom-pos-rel">
-                        <svg id="curved-line-2" class="hidden-xs hidden-sm" x="0px" y="0px" width="132px" height="225px" viewBox="0 0 132 225" enable-background="new 0 0 132 225" xml:space="preserve">
-                            <circle class="circle" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-dasharray="2,2" data-appear-animation="circle-anim" data-appear-animation-delay="1200" cx="120.888" cy="214.023" r="7.688"/>
-                            <circle class="circle-dashed" fill="none" stroke="white" stroke-miterlimit="10" stroke-dasharray="3,3" cx="120.888" cy="214.023" r="7.688"/>
-                            <path class="path" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-dasharray="2,2" data-appear-animation="line-anim-2" d="M113.812,209.406c0,0-193-54.125-72.5-206.125"/>
-                            <path class="path-dashed" fill="none" stroke="white" stroke-miterlimit="10" stroke-dasharray="3,3" d="M113.812,209.406c0,0-193-54.125-72.5-206.125"/>
-                        </svg>
-                        <div class="row center">
-                            <div class="col-md-12">
-                                <h2>What We Do</h2>
-                                <p class="custom-section-sub-title">OUR AMAZING SERVICES</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 match-height">
-                                <div class="feature-box feature-box-style-2 custom-feature-box-style-1">
-                                    <div class="feature-box-icon">
-                                        <i class="fa fa-object-group text-color-secondary"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-none">WEB DESIGN</h4>
-                                        <p class="tall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dolorem et ut praesentium consectetur, voluptas commodi laboriosam modi suscipit?</p>
-                                    </div>
-                                </div>
-                                <div class="feature-box feature-box-style-2 custom-feature-box-style-1">
-                                    <div class="feature-box-icon">
-                                        <i class="fa fa-mobile-phone text-color-secondary _size-1"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-none">MOBILE APPS</h4>
-                                        <p class="tall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus tenetur eligendi maxime quasi veritatis modi blanditiis quod doloribus saepe?</p>
-                                    </div>
-                                </div>
-                                <div class="feature-box feature-box-style-2 custom-feature-box-style-1">
-                                    <div class="feature-box-icon">
-                                        <i class="fa fa-code text-color-secondary"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h4 class="mb-none">WEB DEVELOPMENT + ECOMMERCE</h4>
-                                        <p class="tall">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, nam harum eos sunt, aperiam incidunt ullam possimus earum non!</p>
-                                    </div>
-                                </div>
-                                <a class="btn custom-btn-style-1 custom-margin-1 text-color-dark" href="#contact-us" data-hash>CONTACT US</a>
-                            </div>
-                            <div class="col-md-6 match-height">
-                                <img src="img/demos/one-page-agency/what-we-do/what-we-do-2.jpg" alt class="custom-image-style-2 _big" data-appear-animation="fadeIn" data-appear-animation-delay="1500" data-appear-animation-duration="100" />
-                                <img src="img/demos/one-page-agency/what-we-do/what-we-do-1.jpg" alt class="custom-image-style-2 _small" data-appear-animation="fadeInUp" data-appear-animation-delay="1900" data-appear-animation-duration="100" data-plugin-options="{'accY': 100}" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                
-                
-                <section class="section section-primary section-no-border m-none">
+                <section id="what-we-do" class="section section-tertiary section-no-border section-custom-construction">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="img/demos/one-page-agency/purchase/purchase-1.png" alt class="img-responsive" />
+                        <div class="row pt-xl">
+                            <div class="col-md-12">
+                                <h2 class="mb-none text-color-dark">Services</h2>
+                                <p class="lead">Lorem ipsum dolor sit amet.</p>
                             </div>
-                            <div class="col-md-5">
-                                <h2 class="text-color-light mt-xlg pt-md">Purchase Porto</h2>
-                                <p class="custom-section-sub-title text-color-light">GET READY NOW</p>
-                                <p class="text-color-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iure, incidunt, in aspernatur error nostrum obcaecati velit doloremque praesentium soluta est. Atque, esse expedita, dicta, possimus voluptate alias porro pariatur beatae.</p>
-                                <a href="#" class="btn custom-btn-style-1 _color-2 text-color-light mt-xlg">PURCHASE NOW</a>
+                        </div>
+
+                        <div class="row mt-lg">
+                            <div class="col-md-6">
+                                <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                    <div class="feature-box-icon">
+                                        <img src="img/demos/construction/icons/ground-construction.png" alt="" class="img-responsive" />
+                                    </div>
+                                    <div class="feature-box-info ml-md">
+                                        <h4 class="mb-sm">Pre-Construction</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+                                    <div class="feature-box-icon">
+                                        <img src="img/demos/construction/icons/construction.png" alt="" class="img-responsive" />
+                                    </div>
+                                    <div class="feature-box-info ml-md">
+                                        <h4 class="mb-sm">General Construction</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-md mb-xl">
+                            <div class="col-md-6">
+                                <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                    <div class="feature-box-icon">
+                                        <img src="img/demos/construction/icons/painting.png" alt="" class="img-responsive" />
+                                    </div>
+                                    <div class="feature-box-info ml-md">
+                                        <h4 class="mb-sm">Painting</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+                                    <div class="feature-box-icon">
+                                        <img src="img/demos/construction/icons/plumbing.png" alt="" class="img-responsive" />
+                                    </div>
+                                    <div class="feature-box-info ml-md">
+                                        <h4 class="mb-sm">Plumbing</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
+                
                
                 <section id="blog" class="section section-no-border background-color-tertiary m-none">
                     <div class="container">
