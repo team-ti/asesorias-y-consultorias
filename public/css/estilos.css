@@ -1,0 +1,31 @@
+#header .header-body{
+	background: #fff;
+	border:none;
+	padding: 10px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
+}
+#header .header-nav-main nav > ul > li > a{
+	color: #1F1468;
+}
+#header .header-logo img{
+	margin: 0px;
+}
+#header .header-nav-main nav > ul > li:hover > a, #header .header-nav-main nav > ul > li.active > a {
+    color: #1f1468 !important;
+    font-weight: 600;
+}
+html.sticky-header-active #header .header-body{
+	background: #fff;
+}
+#header .header-nav-main nav > ul > li.active > a:before{
+	    border-bottom: 3px solid #1f1468;
+}
+@media (min-width: 992px){
+	.custom-divider-1 {
+		width: 190px;
+	}
+	.custom-divider-1:after{
+		border: none;
+	}
+}
