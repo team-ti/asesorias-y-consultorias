@@ -23,7 +23,11 @@ class NoticiasController extends Controller
 
     public function index()
     {
-        return view('administrador/index');
+      $noticias = Noticia::latest()
+      ->take(6)
+      ->get();
+
+        return view('administrador/index', compact('noticias'));
 
     }
 
@@ -47,6 +51,12 @@ class NoticiasController extends Controller
     public function store(Request $request)
     {
 
+        $this->validate($request, [
+            'titulo' => 'required',
+            'resumen' => 'required',
+            'contenido' => 'required',
+        ]);
+
         $noticias = new Noticia();
         $noticias->titulo = $request->inputTitulo;
         $noticias->resumen = $request->inputLead;
@@ -67,6 +77,9 @@ class NoticiasController extends Controller
 
 
             $noti = $noticias ->save(); 
+
+        $resultado = 'completado';
+        return back()->with('msj','Datos guardados correctamente');
     }
 
     /**
@@ -77,7 +90,10 @@ class NoticiasController extends Controller
      */
     public function show($id)
     {
-        //
+        $noticia = Noticia::find($id)
+
+        return view('administrador/show', compact('noticia'));
+
     }
 
     /**

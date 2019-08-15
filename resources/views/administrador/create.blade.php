@@ -8,6 +8,34 @@
               
         <h1 align="center" style="font-weight: bold;">Registro de Noticias</h1>
 
+        @if (count($errors) > 0)
+
+<div class="alert alert-danger" style="font-size: 16px">
+
+  <ul>
+    
+    @foreach ($errors->all() as $error)
+
+    <li> {{ $error }}</li>
+
+    @endforeach
+
+
+  </ul>
+  
+</div>
+
+@else
+
+@if(session()->has('msj'))
+
+<div class="alert alert-success" role="alert" style="font-size: 16px">Datos guardados correctamente</div>
+
+@endif
+
+
+@endif
+
         <div class="form-group" >
             <label for="inputTitulo">Titulo*</label>
             <input type="text" class="form-control" id="inputTitulo" name="inputTitulo" placeholder="Titulo" required="required" maxlength="255" value="{{ old('inputTitulo') }}" >

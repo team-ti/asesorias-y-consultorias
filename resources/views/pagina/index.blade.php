@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">   
 
-        <title>Demo One Page Agency | Porto - Responsive HTML5 Template 5.7.2</title>   
+        <title>E.P Asesorias y Consultorias</title>   
 
         <meta name="keywords" content="HTML5 Template" />
         <meta name="description" content="Porto - Responsive HTML5 Template">
@@ -21,6 +21,8 @@
 
         <!-- Web Fonts  -->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">  
 
         <!-- Vendor CSS -->
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -68,7 +70,7 @@
                             <div class="header-column custom-divider-1">
                                 <div class="header-logo">
                                     <a href="demo-one-page-agency.html">
-                                        <img alt="Logo" width="100%" src="img/logo-ep.png">
+                                        <img alt="Logo" width="100%" src="img/asesoria/logo-ep.png">
                                     </a>
                                 </div>
                             </div>
@@ -145,104 +147,134 @@
                     <div id="revolutionSlider" class="slider manual rev_slider">
                         <ul>
                             <li data-transition="fade">
-                                <img src="img/demos/one-page-agency/slides/slide-1.jpg"
+                                <img src="img/asesoria/slide3.jpg"
+                                    alt=""
+                                    data-bgposition="center center"
+                                    data-bgfit="cover"
+                                    data-bgrepeat="no-repeat"
+                                    class="rev-slidebg">
+ 
+                                <h1 class="tp-caption text-color-light font-weight-bold tipo-letra"
+                                    data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
+                                    data-y="center" data-voffset="-55"
+                                    data-start="500"
+                                    data-fontsize="70"
+                                    data-transform_in="y:[-300%];opacity:0;s:500;">Contratacion Pública y Privada</h1>
+
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
+                                    data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
+                                    data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
+                                    data-start="1500"
+                                    data-fontsize="30"
+                                    data-whitespace="nowrap"
+                                    data-transform_in="y:[100%];s:500;"
+                                    data-transform_out="opacity:0;s:500;"
+                                    data-mask_in="x:0px;y:0px;">Asesoría Empresarial</div>
+
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
+                                    data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
+                                    data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
+                                    data-start="2000"
+                                    data-fontsize="30"
+                                    data-transform_in="y:[100%];opacity:0;s:500;">Gestión Comercial</div>
+                            </li>
+                            <li data-transition="fade">
+                                <img src="img/asesoria/slide1.jpg"
                                     alt=""
                                     data-bgposition="center center"
                                     data-bgfit="cover"
                                     data-bgrepeat="no-repeat"
                                     class="rev-slidebg">
 
-                                <h1 class="tp-caption text-color-light font-weight-bold"
+                                <h1 class="tp-caption text-color-light font-weight-bold tipo-letra"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="center" data-voffset="-55"
                                     data-start="500"
                                     data-fontsize="80"
-                                    data-transform_in="y:[-300%];opacity:0;s:500;">NEW DESIGN?</h1>
+                                    data-transform_in="y:[-300%];opacity:0;s:500;">Capacitación</h1>
 
-                                <div class="tp-caption text-color-light"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
                                     data-start="1500"
-                                    data-fontsize="['18','18','18','25']"
+                                    data-fontsize="30"
                                     data-whitespace="nowrap"
                                     data-transform_in="y:[100%];s:500;"
                                     data-transform_out="opacity:0;s:500;"
-                                    data-mask_in="x:0px;y:0px;">CHECK OUR OPTIONS AND FEATURES</div>
+                                    data-mask_in="x:0px;y:0px;">Conferencias</div>
 
-                                <div class="tp-caption"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
                                     data-start="2000"
-                                    data-fontsize="['12','12','12','19']"
-                                    data-transform_in="y:[100%];opacity:0;s:500;">PORTO AGENCY - NEW YORK/NY</div>
+                                    data-fontsize="30"
+                                    data-transform_in="y:[100%];opacity:0;s:500;">Seminarios en Contratacíon Estatal</div>
 
                             </li>
                             <li data-transition="fade">
-                                <img src="img/demos/one-page-agency/slides/slide-2.jpg"
+                                <img src="img/asesoria/slide2.jpg"
                                     alt=""
                                     data-bgposition="center center"
                                     data-bgfit="cover"
                                     data-bgrepeat="no-repeat"
                                     class="rev-slidebg">
 
-                                <h1 class="tp-caption text-color-light font-weight-bold"
+                                <h1 class="tp-caption text-color-light font-weight-bold tipo-letra"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="center" data-voffset="-55"
                                     data-start="500"
                                     data-fontsize="80"
-                                    data-transform_in="y:[-300%];opacity:0;s:500;">MOBILE APPS?</h1>
+                                    data-transform_in="y:[-300%];opacity:0;s:500;">Asesorías en Construcción</h1>
 
-                                <div class="tp-caption text-color-light"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
                                     data-start="1500"
-                                    data-fontsize="['18','18','18','25']"
+                                    data-fontsize="30"
                                     data-whitespace="nowrap"
                                     data-transform_in="y:[100%];s:500;"
                                     data-transform_out="opacity:0;s:500;"
-                                    data-mask_in="x:0px;y:0px;">CHECK OUR OPTIONS AND FEATURES</div>
+                                    data-mask_in="x:0px;y:0px;">Interventorias</div>
 
-                                <div class="tp-caption"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
                                     data-start="2000"
-                                    data-fontsize="['12','12','12','19']"
-                                    data-transform_in="y:[100%];opacity:0;s:500;">PORTO AGENCY - NEW YORK/NY</div>
-
+                                    data-fontsize="30"
+                                    data-transform_in="y:[100%];opacity:0;s:500;">Consultorías de Obra</div>
                             </li>
+
+                            
                         </ul>
                     </div>
                 </div>
 
                 <section id="who-we-are" class="section section-no-border background-color-light m-none">
                     <div class="container">
-                        <div class="row center">
-                            <div class="col-md-12">
-                                <h2>Who We Are</h2>
-                                <p class="custom-section-sub-title">ABOUT PORTO AGENCY</p>
-                            </div>
-                        </div>
+                        <div class="featured-boxes">
                         <div class="row">
-                            <div class="col-md-6">
-                                <p>
-                                    <strong class="font-weight-semibold text-color-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas alias id hic odit accusamus veniam illum.</strong><br>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio excepturi voluptatibus ipsum natus molestiae blanditiis pariatur est molestias ex nostrum. Nobis veritatis, deserunt sint! Ipsa labore aliquam, adipisci minus ex, temporibus aliquid, sapiente aspernatur id, facere dolorem magni placeat cum consectetur officiis ducimus.
-                                </p>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="featured-box featured-box-primary featured-box-effect-1">
+                                    <div class="box-content">
+                                        <i class="icon-featured fas fa-bullseye" style="color: #ffffff; font-size:30px;"></i>
+                                        <h4 class="text-uppercase" style="color: #1e1468;">Misión</h4>
+                                        <p>Nuestra empresa estará obligada a brindar especial, eficaz y correcta asesoría para el desarrollo de cualquier actividad lícita, comercial o mercantil, a personas tanto naturales como jurídicas contando con especialistas en todas las áreas del derecho para así garantizar a dichas personas el correcto desarrollo de sus intereses cumpliendo de manera estricta lo establecido en la ley.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 custom-margin-3 center">
-                                <svg id="curved-line-1" x="0px" y="0px" width="545px" height="305px" viewBox="0 0 545 305" enable-background="new 0 0 545 305" xml:space="preserve">
-                                    <circle class="circle appear-animation" data-appear-animation="circle-anim" fill="none" stroke="#231F20" stroke-miterlimit="10" stroke-dasharray="2.0106,1.0053" cx="10.206" cy="9.91" r="8.167"/>
-                                    <circle class="circle-dashed" fill="none" stroke="white" stroke-miterlimit="10" stroke-dasharray="3,3" cx="10.206" cy="9.91" r="8.167"/>
-                                    <path class="path appear-animation" data-appear-animation="line-anim" data-appear-animation-delay="800" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-dasharray="2.0024,2.0024" d="M11.469,21.046
-                                        c3.191,19.81,32.779,130.736,292.756,87.863c280.979-46.337,240.717,145.948,212.215,185.401"/>
-                                    <path class="path-dashed" fill="none" stroke="white" stroke-miterlimit="10" stroke-dasharray="3,3" d="M11.469,21.046
-                                            c3.191,19.81,32.779,130.736,292.756,87.863c280.979-46.337,240.717,145.948,212.215,185.401"/>
-                                </svg>
-                                <img src="img/demos/one-page-agency/who-we-are/who-we-are-1.jpg" alt class="custom-image-style-1 _left" data-appear-animation="zoomIn" data-appear-animation-delay="1300" />
-                                <img src="img/demos/one-page-agency/who-we-are/who-we-are-2.jpg" alt class="custom-image-style-1 _middle" data-appear-animation="zoomIn" data-appear-animation-delay="1800" />
-                                <img src="img/demos/one-page-agency/who-we-are/who-we-are-3.jpg" alt class="custom-image-style-1 _right" data-appear-animation="zoomIn" data-appear-animation-delay="2300" />
+                            <div class="col-md-6 col-sm-6">
+                                <div class="featured-box featured-box-primary featured-box-effect-1">
+                                    <div class="box-content">
+                                        <i class="icon-featured far fa-eye" style="color: #ffffff; font-size:30px;"></i>
+                                        <h4 class="text-uppercase" style="color: #1e1468;">Visión</h4>
+                                        <p>En nuestra empresa queremos ser los número uno a nivel regional, brindando asesorías para llevar a cabo cualquier tipo de actividad lícita por medio de nuestros especialistas basándonos en la transparencia y eficacia de dichas actividades, dándole prioridad siempre al buen desarrollo de los procesos con su respectivo marco legal antes que a cualquier otra cosa y poder extendernos al ámbito nacional e internacional.</p>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
+                    </div>
+                    
                     </div>
                 </section>
 
@@ -251,8 +283,8 @@
                     <div class="container">
                         <div class="row pt-xl">
                             <div class="col-md-12">
-                                <h2 class="mb-none text-color-dark">Services</h2>
-                                <p class="lead">Lorem ipsum dolor sit amet.</p>
+                                <h2 class="mb-none text-color-dark">Nuestros Servicios</h2>
+                                <p class="lead">Asesoría Jurídica Contratación Estatal</p>
                             </div>
                         </div>
 
@@ -260,24 +292,25 @@
                             <div class="col-md-6">
                                 <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
                                     <div class="feature-box-icon">
-                                        <img src="img/demos/construction/icons/ground-construction.png" alt="" class="img-responsive" />
+                                        <i class="fas fa-file-invoice-dollar"
+                                        style="color: #1e1468; font-size:30px;"></i>
+
                                     </div>
                                     <div class="feature-box-info ml-md">
-                                        <h4 class="mb-sm">Pre-Construction</h4>
+                                        <h4 class="mb-sm">Contratacion Pública y Privada</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
                                     <div class="feature-box-icon">
-                                        <img src="img/demos/construction/icons/construction.png" alt="" class="img-responsive" />
+                                        <i class="fas fa-city"
+                                        style="color: #1e1468; font-size:30px;"></i>
                                     </div>
                                     <div class="feature-box-info ml-md">
-                                        <h4 class="mb-sm">General Construction</h4>
+                                        <h4 class="mb-sm">Asesoría Empresarial y Gestión comercial</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -287,24 +320,25 @@
                             <div class="col-md-6">
                                 <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
                                     <div class="feature-box-icon">
-                                        <img src="img/demos/construction/icons/painting.png" alt="" class="img-responsive" />
+                                        <i class="fas fa-chalkboard-teacher"
+                                        style="color: #1e1468; font-size:30px;"></i>
                                     </div>
                                     <div class="feature-box-info ml-md">
-                                        <h4 class="mb-sm">Painting</h4>
+                                        <h4 class="mb-sm">Capacitación - Conferencias y Seminarios en Contratacíon Estatal</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+
                                     <div class="feature-box-icon">
-                                        <img src="img/demos/construction/icons/plumbing.png" alt="" class="img-responsive" />
+                                        <i class="fas fa-hard-hat"
+                                        style="color: #1e1468; font-size:30px;"></i>
                                     </div>
                                     <div class="feature-box-info ml-md">
-                                        <h4 class="mb-sm">Plumbing</h4>
+                                        <h4 class="mb-sm">Asesorías Construcción - Interventorias y Consultorías de Obra</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
-                                        <a class="mt-md" href="demo-construction-services-detail.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -314,33 +348,90 @@
 
                 
                
-                <section id="blog" class="section section-no-border background-color-tertiary m-none">
+                <section id="blog" class="section section-no-border  background-color-light  m-none">
                     <div class="container">
                         <div class="row center">
                             <div class="col-md-12">
-                                <h2>Our Blog</h2>
-                                <p class="custom-section-sub-title">RECENT POSTS</p>
+                                <h2>Noticias</h2>
+                                <p class="custom-section-sub-title">Noticias Recientes</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="owl-carousel show-nav-title custom-arrows-style-1" data-plugin-options="{'responsive': {'767': {'items': 1}, '1200': {'items': 3}}, 'margin': 15, 'loop': false, 'dots': false, 'nav': true, 'autoHeight': true}">
+                                <div class="owl-carousel show-nav-title custom-arrows-style-1"  data-plugin-options="{'responsive': {'767': {'items': 1}, '1200': {'items': 3}}, 'margin': 15, 'loop': false, 'dots': false, 'nav': true, 'autoHeight': true}" style="    height: 428.656px;">
                                     <div>
                                         <article class="thumb-info custom-thumb-info-style-2">
                                             <span class="thumb-info-wrapper m-none">
                                                 <a href="#" class="text-decoration-none" title="Innovation is the key">
-                                                    <img src="img/demos/one-page-agency/blog/blog-1.jpg" class="img-responsive" alt="">
+                                                    <img src="img/noticia1.jpg" class="img-responsive" alt="">
                                                 </a>
                                             </span>
                                             <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">FEB-8-2017</span>
-                                                <p class="custom-thumb-info-category">WEB DESIGN</p>
+                                                <span class="date background-color-dark text-color-light">AGO-5-2019</span>
+                                                <p class="custom-thumb-info-category">Entrevista</p>
                                                 <h4 class="mb-sm">
                                                     <a href="#" class="text-decoration-none text-color-dark">
-                                                        INNOVATION IS THE KEY
+                                                        “El 70 % de las facultades de derecho son de baja calidad”: Mauricio Villegas
                                                     </a>
                                                 </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
+                                                <p>Mauricio García Villegas y María Adelaida Ceballos Bedoya escribieron Abogados sin reglas, un libro que muestra la preocupante realidad de la profesión jurídica en el país. Las conclusiones son sorprendentes.</p>
+                                            </span>
+                                        </article>
+                                    </div>
+                                    <div>
+                                        <article class="thumb-info custom-thumb-info-style-2">
+                                            <span class="thumb-info-wrapper m-none">
+                                                <a href="#" class="text-decoration-none" title="Creative moments">
+                                                    <img src="img/noticia2.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </span>
+                                            <span class="thumb-info-caption background-color-light p-md">
+                                                <span class="date background-color-dark text-color-light">AGO-4-2019</span>
+                                                <p class="custom-thumb-info-category">Educación</p>
+                                                <h4 class="mb-sm">
+                                                    <a href="#" class="text-decoration-none text-color-dark">
+                                                        Corte Constitucional: estudiantes de Derecho sí deben presentar examen de Estado
+                                                    </a>
+                                                </h4>
+                                                <p>Desde hace un año entró en vigencia una ley que exige a los nuevos abogados presentar un examen para obtener su tarjeta profesional. A pesar de que un accionante demandó la decisión, hoy la Corte Constitucional la ratificó.</p>
+                                            </span>
+                                        </article>
+                                    </div>
+                                    <div>
+                                        <article class="thumb-info custom-thumb-info-style-2">
+                                            <span class="thumb-info-wrapper m-none">
+                                                <a href="#" class="text-decoration-none" title="Back in Business">
+                                                    <img src="img/noticia3.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </span>
+                                            <span class="thumb-info-caption background-color-light p-md">
+                                                <span class="date background-color-dark text-color-light">JUL-19-2019</span>
+                                                <p class="custom-thumb-info-category">Luto</p>
+                                                <h4 class="mb-sm">
+                                                    <a href="#" class="text-decoration-none text-color-dark">
+                                                        El triste adiós en Twitter al abogado Gabriel de Vega
+                                                    </a>
+                                                </h4>
+                                                <p>Decenas de personajes públicos despiden al reconocido jurista, un hombre con un sentido del humor excepcional y protagonista de algunos de los debates más importantes del país.</p>
+                                            </span>
+                                        </article>
+                                    </div>
+                                    <div>
+                                        <article class="thumb-info custom-thumb-info-style-2">
+                                            <span class="thumb-info-wrapper m-none">
+                                                <a href="#" class="text-decoration-none" title="Innovation is the key">
+                                                    <img src="img/noticia4.jpg" class="img-responsive" alt="">
+                                                </a>
+                                            </span>
+                                            <span class="thumb-info-caption background-color-light p-md">
+                                                <span class="date background-color-dark text-color-light">FEB-8-2019</span>
+                                                <p class="custom-thumb-info-category">Talento</p>
+                                                <h4 class="mb-sm">
+                                                    <a href="#" class="text-decoration-none text-color-dark">
+                                                        Cruzando fronteras
+                                                    </a>
+                                                </h4>
+                                                <p>Las alianzas económicas entre los países iberoamericanos exigen nuevos retos para la región. Entre ellos, la experticia de abogados de todos los países que posibiliten el desarrollo común y el posicionamiento de las empresas multilatinas.</p>
                                             </span>
                                         </article>
                                     </div>
@@ -382,201 +473,110 @@
                                             </span>
                                         </article>
                                     </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Innovation is the key">
-                                                    <img src="img/demos/one-page-agency/blog/blog-1.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">FEB-8-2017</span>
-                                                <p class="custom-thumb-info-category">WEB DESIGN</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        INNOVATION IS THE KEY
-                                                    </a>
-                                                </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Creative moments">
-                                                    <img src="img/demos/one-page-agency/blog/blog-2.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">FEB-1-2017</span>
-                                                <p class="custom-thumb-info-category">WEB DESIGN</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        CREATIVE MOMENTS
-                                                    </a>
-                                                </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Back in Business">
-                                                    <img src="img/demos/one-page-agency/blog/blog-3.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">JAN-19-2017</span>
-                                                <p class="custom-thumb-info-category">OTHER</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        BACK IN BUSINESS
-                                                    </a>
-                                                </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
-                                            </span>
-                                        </article>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row center">
                             <div class="col-md-12">
-                                <a href="#" class="btn custom-btn-style-1 text-color-dark">VIEW OUR BLOG</a>
+                                <a href="#" class="btn custom-btn-style-1 text-color-dark">Todas las noticias</a>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section class="section section-no-border background-color-light m-none">
+
+
+                <section class="section section-background section-footer" style="background-image: url(img/asesoria/contactanos.jpg); background-position: 100%; background-size: cover;">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-2 col-sm-6 col-xs-6 custom-margin-4-sm">
-                                <img src="img/logos/logo-1.png" alt class="img-responsive" />
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 custom-margin-4-sm">
-                                <img src="img/logos/logo-2.png" alt class="img-responsive" />
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 custom-margin-4-sm">
-                                <img src="img/logos/logo-3.png" alt class="img-responsive" />
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6 custom-margin-4-sm">
-                                <img src="img/logos/logo-4.png" alt class="img-responsive" />
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6">
-                                <img src="img/logos/logo-5.png" alt class="img-responsive" />
-                            </div>
-                            <div class="col-md-2 col-sm-6 col-xs-6">
-                                <img src="img/logos/logo-6.png" alt class="img-responsive" />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-                <div id="googlemaps" class="google-map m-none custom-contact-pos"></div>
-
-                <section class="section section-no-border m-none p-none">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-6 custom-contact-box custom-contact-pos background-color-quaternary">
-                                <h2 class="text-color-light">Contact Us</h2>
-                                <div class="feature-box feature-box-style-2 custom-feature-box-style-2 mb-lg">
-                                    <div class="feature-box-icon">
-                                        <i class="icon-call-in icons text-color-secondary"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h6 class="mb-none text-sm">Call us</h6>
-                                        <a href="tel:+88934567898" class="text-color-light text-decoration-none">+800 123 4567</a>
-                                    </div>
+                            <div class="col-md-6 col-md-offset-6">
+                                <h2 class="mt-xl mb-none">Agenda tu consulta ahora</h2>
+                                <p>Consulte con nuestro equipo experimentado para soluciones completas a sus problemas legales.</p>
+                                <div class="divider divider-primary divider-small mb-xl">
+                                    <hr>
                                 </div>
-                                <div class="feature-box feature-box-style-2 custom-feature-box-style-2 mb-xlg">
-                                    <div class="feature-box-icon">
-                                        <i class="icon-location-pin icons text-color-secondary"></i>
-                                    </div>
-                                    <div class="feature-box-info">
-                                        <h6 class="mb-none text-sm">Our Location</h6>
-                                        <p class="tall text-color-light">123 PORTO AVE PORTO, 1235</p>
-                                    </div>
-                                </div>
-                                <h5 class="text-color-light">SEND A MESSAGE</h5>
-                                <form id="contactForm" class="custom-contact-form-style-1" action="php/contact-form.php" method="POST">
-                                    <div class="alert alert-success hidden mt-lg" id="contactSuccess">
-                                        <strong>Success!</strong> Your message has been sent to us.
-                                    </div>
-
-                                    <div class="alert alert-danger hidden mt-lg" id="contactError">
-                                        <strong>Error!</strong> There was an error sending your message.
-                                        <span class="font-size-xs mt-sm display-block" id="mailErrorMessage"></span>
-                                    </div>
+                                <form id="contactForm" action="php/contact-form.php" method="POST">
                                     <div class="row">
-                                        <div class="form-group _divider">
-                                            <div class="col-md-6 col-sm-6">
-                                                <input type="text" value=""  maxlength="100" class="form-control" name="name" id="name" placeholder="YOUR NAME" required>
+                                        <div class="form-group">
+                                            <div class="col-sm-6">
+                                                <input type="text" value="" placeholder="Nombre" data-msg-required="Por favor escribe un nombre." maxlength="100" class="form-control" name="name" id="name" required>
                                             </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <input type="text" value="" maxlength="100" class="form-control" name="phone" id="phone" placeholder="PHONE" required>
+                                            <div class="col-sm-6">
+                                                <input type="email" value="" placeholder="Correo electronico *" data-msg-required="Por favor escribe un correo electronico." data-msg-email="Escribe un corro electronico valido" maxlength="100" class="form-control" name="email" id="email" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <input type="email" value="" maxlength="100" class="form-control" name="email" id="email" placeholder="EMAIL ADDRESS" required>
+                                                <input type="text" value="" placeholder="Asunto" data-msg-required="Por favor escribe un asunto." maxlength="100" class="form-control" name="subject" id="subject" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12">
-                                                <textarea maxlength="5000" rows="7" class="form-control" name="message" id="message" placeholder="COMMENT" required></textarea>
+                                                <textarea maxlength="5000" placeholder="Mensaje *" data-msg-required="Por favor escribe un mensaje" rows="3" class="form-control" name="message" id="message" required></textarea>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <input type="submit" value="SUBMIT" class="btn btn-primary custom-btn-style-2 text-color-light custom-margin-2 pull-right" data-loading-text="Loading...">
+                                            <input type="submit" value="Enviar mensaje" class="btn btn-primary mb-xl" data-loading-text="Cargando...">
+
+                                            <div class="alert alert-success hidden" id="contactSuccess">
+                                                El mensaje ha sido enviado.
+                                            </div>
+
+                                            <div class="alert alert-danger hidden" id="contactError">
+                                                Error enviando tu mensaje.
+                                            </div>
                                         </div>
                                     </div>
                                 </form>
+
                             </div>
                         </div>
                     </div>
                 </section>
 
-        </div>
-        <footer id="footer" class="m-none p-none">
-            <div class="footer-copyright background-color-light">
+<footer class="short" id="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-8 col-sm-11 col-md-9">
-                            <p>© Copyright 2017. All Rights Reserved.</p>
+                        <div class="col-md-5">
+                            <a href="demo-law-firm.html" class="logo mb-md">
+                                <img alt="Porto Website Template" class="img-responsive" width="400" height="180" src="img/logo-ep-bn.png">
+                            </a>
+
                         </div>
-                        <div class="col-xs-4 col-sm-1 col-md-3">
-                            <ul class="social-icons custom-social-icons-style-2 pull-right">
-                                <li class="social-icons-facebook">
-                                    <a href="http://www.facebook.com/" class="text-color-quaternary" target="_blank" title="Facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="social-icons-twitter">
-                                    <a href="http://www.twitter.com/" class="text-color-quaternary" target="_blank" title="Twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="social-icons-linkedin">
-                                    <a href="http://www.linkedin.com/" class="text-color-quaternary" target="_blank" title="Linkedin">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
+                        <div class="col-md-3 col-md-offset-1">
+                            <h5 class="mb-sm">E.P Asesorias & Consultoria S.A.S</h5>
+                            <ul class="list list-icons mt-xl">
+
+                                <li><i class="fa fa-envelope"></i> <strong>Correo:</strong> <a href="mailto:epasesoriasyconsultorias@gmail.com">epasesoriasyconsultorias@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="mb-sm">Telefono</h5>
+                            <span class="phone">+57 320 4431015</span>
+                            <ul class="social-icons mt-lg">
+                                <li class="social-icons-facebook"><a href="https://www.facebook.com/EP-Asesor%C3%ADas-Consultor%C3%ADas-SAS-2324590117791636/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-icons-instagram"><a href="https://www.instagram.com/epasesoriasyconsultorias/" target="_blank" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>© Copyright 2019. Todos los derechos reservados. | <a href="demo-law-firm-contact-us.html"></a></p>
+                                <a style="color:#555; font-size: 8px;">Business photo created by freepik - www.freepik.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
         <!-- Vendor -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -612,97 +612,6 @@
         
         <!-- Theme Initialization Files -->
         <script src="js/theme.init.js"></script>
-
-
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-        <script>
-
-            /*
-            Map Settings
-
-                Find the Latitude and Longitude of your address:
-                    - http://universimmedia.pagesperso-orange.fr/geo/loc.htm
-                    - http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
-
-            */
-
-            // Map Markers
-            var mapMarkers = [{
-                address: "New York, NY 10017",
-                html: "<strong>Porto One Page Agency</strong><br>New York, NY 10017",
-                icon: {
-                    image: "img/pin.png",
-                    iconsize: [26, 46],
-                    iconanchor: [12, 46]
-                },
-                popup: true
-            }];
-
-            // Map Initial Location
-            var initLatitude = 40.75198;
-            var initLongitude = -73.96978;
-
-            // Map Extended Settings
-            var mapSettings = {
-                controls: {
-                    panControl: true,
-                    zoomControl: true,
-                    mapTypeControl: true,
-                    scaleControl: true,
-                    streetViewControl: true,
-                    overviewMapControl: true
-                },
-                scrollwheel: false,
-                markers: mapMarkers,
-                latitude: initLatitude,
-                longitude: initLongitude,
-                zoom: 16
-            };
-
-            var map = $('#googlemaps').gMap(mapSettings),
-                mapRef = $('#googlemaps').data('gMap.reference');
-
-            // Map Center At
-            var mapCenterAt = function(options, e) {
-                e.preventDefault();
-                $('#googlemaps').gMap("centerAt", options);
-            }
-
-            var mapRef = $('#googlemaps').data('gMap.reference');
-
-            // Styles from https://snazzymaps.com/
-            var styles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}];
-
-            var styledMap = new google.maps.StyledMapType(styles, {
-                name: 'Styled Map'
-            });
-
-            mapRef.mapTypes.set('map_style', styledMap);
-            mapRef.setMapTypeId('map_style');
-
-            // Change Center Position
-            if( $(window).width() > 767 ) {
-                if( $('html[dir="rtl"]').get(0) ) {
-                    mapRef.panBy(250,0);
-                } else {
-                    mapRef.panBy(-250,0);
-                }
-            }
-
-        </script>
-
-
-        <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        
-            ga('create', 'UA-12345678-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-         -->
 
 
     </body>
