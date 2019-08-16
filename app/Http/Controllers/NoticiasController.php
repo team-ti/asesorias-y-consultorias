@@ -27,6 +27,8 @@ class NoticiasController extends Controller
       ->take(6)
       ->get();
 
+      $noticias = Noticia::all();
+
         return view('administrador/index', compact('noticias'));
 
     }
@@ -51,6 +53,12 @@ class NoticiasController extends Controller
     public function store(Request $request)
     {
 
+        if ($request->hasFile('imagen')) {
+            $file = $request->file('imagen');
+            $imagen = time().$file->getClientOriginalName();
+            $file->move(public_path().'/imagenes/',$imagen);
+        }
+
         $this->validate($request, [
             'titulo' => 'required',
             'resumen' => 'required',
@@ -61,8 +69,10 @@ class NoticiasController extends Controller
         $noticias->titulo = $request->inputTitulo;
         $noticias->resumen = $request->inputLead;
         $noticias ->contenido = $request->Cuerpo;
+        $noticias->imagen = $imagen;
 
-        $img = $request->file('fileImg');
+
+        /*$img = $request->file('fileImg');
             if (is_null($img)) {
             $file_route ='default';
             
@@ -73,10 +83,10 @@ class NoticiasController extends Controller
             Storage::disk('imgNoticias')->put($file_route, file_get_contents($img->getRealPath()));
              }
 
-            $noticias->imagen = $file_route;
+            $noticias->imagen = $file_route;*/
 
 
-            $noti = $noticias ->save(); 
+        $noticias ->save(); 
 
         $resultado = 'completado';
         return back()->with('msj','Datos guardados correctamente');
@@ -116,7 +126,37 @@ class NoticiasController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $noticias = Noticia::find($id);
+
+        $imagen_b = Noticia::find($id);
+        $imagen_delete = $imagen_b->imagen;
+
+         if(\File::exists(public_path('/imagenes/'.$imagen_delete))){
+         \File::delete(public_path('/imagenes/'.$imagen_delete)); 
+        }
+
+        $this->validate($request, [
+            'titulo' => 'required',
+            'resumen' => 'required',
+            'contenido' => 'required',
+        ]);
+
+        if ($request->hasFile('imagen')) {
+            $file = $request->file('imagen');
+            $imagen = time().$file->getClientOriginalName();
+            $file->move(public_path().'/imagenes/',$imagen);
+            $noticias->imagen = $imagen;
+        }
+
+        $noticias->titulo = $request->inputTitulo;
+        $noticias->resumen = $request->inputLead;
+        $noticias ->contenido = $request->Cuerpo;
+        $noticias->imagen = $imagen;
+
+        $noticias ->save(); 
+
+        $resultado = 'completado';
+    return back()->with('msj','Datos actualizados correctamente');
     }
 
     /**
@@ -127,6 +167,10 @@ class NoticiasController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $noticias = Noticia::find($id);
+        $noticias->delete();
+
+        Session::flash('msj', 'Noticia eliminada');
+        return Redirect::to('index');
     }
 }
