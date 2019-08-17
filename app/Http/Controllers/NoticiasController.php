@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 
 use App\Noticia;
 use Storage;
+use Session;
 
 class NoticiasController extends Controller
 {
@@ -23,9 +24,9 @@ class NoticiasController extends Controller
 
     public function index()
     {
-      $noticias = Noticia::latest()
-      ->take(6)
-      ->get();
+      //$noticias = Noticia::latest()
+     // ->take(6)
+     // ->get();
 
       $noticias = Noticia::all();
 
@@ -60,33 +61,21 @@ class NoticiasController extends Controller
         }
 
         $this->validate($request, [
-            'titulo' => 'required',
-            'resumen' => 'required',
-            'contenido' => 'required',
+            'inputTitulo' => 'required',
+            'inputLead' => 'required',
+            'Cuerpo' => 'required',
+            'inputCategoria' => 'required',
         ]);
 
         $noticias = new Noticia();
         $noticias->titulo = $request->inputTitulo;
         $noticias->resumen = $request->inputLead;
         $noticias ->contenido = $request->Cuerpo;
+        $noticias ->categoria = $request->inputCategoria;
         $noticias->imagen = $imagen;
 
 
-        /*$img = $request->file('fileImg');
-            if (is_null($img)) {
-            $file_route ='default';
-            
-                
-            }else{
-            $file_route =time().'_'.$img->getClientOriginalName();
-            // \Storage::disk('imagNoticias')->put($file_route, \File::get($img));
-            Storage::disk('imgNoticias')->put($file_route, file_get_contents($img->getRealPath()));
-             }
-
-            $noticias->imagen = $file_route;*/
-
-
-        $noticias ->save(); 
+       $noticias ->save(); 
 
         $resultado = 'completado';
         return back()->with('msj','Datos guardados correctamente');
@@ -98,11 +87,12 @@ class NoticiasController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        $noticia = Noticia::find($id)
+     public function show($id)
+     {
+        $noticia = Noticia::find($id);
 
-        return view('administrador/show', compact('noticia'));
+
+          return view('administrador/show', compact('noticia'));
 
     }
 
@@ -136,9 +126,9 @@ class NoticiasController extends Controller
         }
 
         $this->validate($request, [
-            'titulo' => 'required',
-            'resumen' => 'required',
-            'contenido' => 'required',
+            'inputTitulo' => 'required',
+            'inputLead' => 'required',
+            'Cuerpo' => 'required',
         ]);
 
         if ($request->hasFile('imagen')) {
@@ -171,6 +161,6 @@ class NoticiasController extends Controller
         $noticias->delete();
 
         Session::flash('msj', 'Noticia eliminada');
-        return Redirect::to('index');
+        return redirect()->route('noticias.index');
     }
 }

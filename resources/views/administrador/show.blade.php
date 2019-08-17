@@ -3,8 +3,9 @@
 @section('content')
 
 <div class="container">
-	<form  action="{{route("noticias.store")}}" method="POST" enctype="multipart/form-data">
+	<form  action="{{route("noticias.update", $noticia->id)}}" method="POST" enctype="multipart/form-data">
         {!! csrf_field() !!}
+        <input name="_method" type="hidden" value="PUT">
               
         <h1 align="center" style="font-weight: bold;">Registro de Noticias</h1>
 
@@ -22,18 +23,18 @@
 
   @if(session()->has('msj'))
 
-    <div class="alert alert-success" role="alert" style="font-size: 16px">Datos guardados correctamente</div>
+    <div class="alert alert-success" role="alert" style="font-size: 16px">Datos actualizados correctamente</div>
   @endif
 @endif
 
         <div class="form-group" >
             <label for="inputTitulo">Titulo*</label>
-            <input type="text" class="form-control" id="inputTitulo" name="inputTitulo" placeholder="Titulo" required="required" maxlength="255" value="{{ old('inputTitulo') }}" >
+            <input type="text" class="form-control" id="inputTitulo" name="inputTitulo" placeholder="Titulo" required="required" maxlength="255" value="{{ $noticia->titulo }}" >
         </div>
 
         <div class="form-group" >
             <label for="inputCategoria">Categoria*</label>
-            <input type="text" class="form-control" id="inputCategoria" name="inputCategoria" placeholder="Categoria" required="required" maxlength="255" value="{{ old('inputCategoria') }}" >
+            <input type="text" class="form-control" id="inputCategoria" name="inputCategoria" placeholder="Categoria" required="required" maxlength="255" value="{{ $noticia->categoria }}" >
         </div>
 		
 				<div class="row">
@@ -54,13 +55,13 @@
           </div>
 	        <div class="form-group col-md-7" >
 	            <label for="inputLead" style="margin-top: 10px; font-weight: bold;">Texto Resumen*</label>
-	            <textarea class="form-control" rows="7" id="inputLead" name="inputLead" placeholder="Texto resumen" required="required" maxlength="500" value="{{ old('inputLead') }}"></textarea>
+	            <textarea class="form-control" rows="7" id="inputLead" name="inputLead" placeholder="Texto resumen" required="required" maxlength="500" >{{ $noticia->resumen }}</textarea>
 	        </div>
 	      </div>
 
         <div >
             <label for="textedit" style="font-weight: bold;">Cuerpo Noticia*</label>
-            <textarea name="Cuerpo" id="Cuerpo" class="editor" rows="30" cols="30" value="{{ old('contenido') }}" ></textarea>
+            <textarea name="Cuerpo" id="Cuerpo" class="editor" rows="30" cols="30">{{ $noticia->contenido }}</textarea>
               {{-- <textarea name="inputCuerpo" id="editor1" rows="30" cols="80"></textarea> --}}
         </div>
 

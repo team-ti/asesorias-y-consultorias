@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Noticia extends Model
 {
-    use SoftDeletes;
 
     protected $table = 'noticias';
-    protected $primaryKey = 'id_noticia';
+    protected $primaryKey = 'id';
   	
   	protected $hidden =[
   		'password', 'remember_token'
   	];
-  	protected $dates = ["deleted_at"];
+  	protected $softDelete = false;
+
 }
