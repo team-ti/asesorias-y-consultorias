@@ -359,126 +359,44 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="owl-carousel show-nav-title custom-arrows-style-1"  data-plugin-options="{'responsive': {'767': {'items': 1}, '1200': {'items': 3}}, 'margin': 15, 'loop': false, 'dots': false, 'nav': true, 'autoHeight': true}" style="    height: 428.656px;">
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Innovation is the key">
-                                                    <img src="img/noticia1.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">AGO-5-2019</span>
-                                                <p class="custom-thumb-info-category">Entrevista</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        “El 70 % de las facultades de derecho son de baja calidad”: Mauricio Villegas
+                                    @if(isset($noticias))
+                                    @foreach($noticias as $noticia)
+                                        <div>
+                                            <article class="thumb-info custom-thumb-info-style-2 articulo-blog">
+                                                <span class="thumb-info-wrapper m-none">
+                                                    <a href="#" class="text-decoration-none" title="Innovation is the key">
+                                                        @php
+                                                        if($noticia->imagen == ""){
+                                                            $imagen = "../img/asesoria/default.jpeg";
+                                                        }else{
+                                                            $imagen = "imagenes/$noticia->imagen";
+
+                                                        }
+                                                        @endphp
+                                                        <img src="{{$imagen}}" class="img-responsive img-blog" alt="">
                                                     </a>
-                                                </h4>
-                                                <p>Mauricio García Villegas y María Adelaida Ceballos Bedoya escribieron Abogados sin reglas, un libro que muestra la preocupante realidad de la profesión jurídica en el país. Las conclusiones son sorprendentes.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Creative moments">
-                                                    <img src="img/noticia2.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">AGO-4-2019</span>
-                                                <p class="custom-thumb-info-category">Educación</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        Corte Constitucional: estudiantes de Derecho sí deben presentar examen de Estado
-                                                    </a>
-                                                </h4>
-                                                <p>Desde hace un año entró en vigencia una ley que exige a los nuevos abogados presentar un examen para obtener su tarjeta profesional. A pesar de que un accionante demandó la decisión, hoy la Corte Constitucional la ratificó.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Back in Business">
-                                                    <img src="img/noticia3.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">JUL-19-2019</span>
-                                                <p class="custom-thumb-info-category">Luto</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        El triste adiós en Twitter al abogado Gabriel de Vega
-                                                    </a>
-                                                </h4>
-                                                <p>Decenas de personajes públicos despiden al reconocido jurista, un hombre con un sentido del humor excepcional y protagonista de algunos de los debates más importantes del país.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Innovation is the key">
-                                                    <img src="img/noticia4.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">FEB-8-2019</span>
-                                                <p class="custom-thumb-info-category">Talento</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        Cruzando fronteras
-                                                    </a>
-                                                </h4>
-                                                <p>Las alianzas económicas entre los países iberoamericanos exigen nuevos retos para la región. Entre ellos, la experticia de abogados de todos los países que posibiliten el desarrollo común y el posicionamiento de las empresas multilatinas.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Creative moments">
-                                                    <img src="img/demos/one-page-agency/blog/blog-2.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">FEB-1-2017</span>
-                                                <p class="custom-thumb-info-category">WEB DESIGN</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        CREATIVE MOMENTS
-                                                    </a>
-                                                </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
-                                            </span>
-                                        </article>
-                                    </div>
-                                    <div>
-                                        <article class="thumb-info custom-thumb-info-style-2">
-                                            <span class="thumb-info-wrapper m-none">
-                                                <a href="#" class="text-decoration-none" title="Back in Business">
-                                                    <img src="img/demos/one-page-agency/blog/blog-3.jpg" class="img-responsive" alt="">
-                                                </a>
-                                            </span>
-                                            <span class="thumb-info-caption background-color-light p-md">
-                                                <span class="date background-color-dark text-color-light">JAN-19-2017</span>
-                                                <p class="custom-thumb-info-category">OTHER</p>
-                                                <h4 class="mb-sm">
-                                                    <a href="#" class="text-decoration-none text-color-dark">
-                                                        BACK IN BUSINESS
-                                                    </a>
-                                                </h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, ut, laboriosam.</p>
-                                            </span>
-                                        </article>
-                                    </div>
+                                                </span>
+                                                <span class="thumb-info-caption background-color-light p-md">
+                                                    <span class="date background-color-dark text-color-light">{{strftime('%b-%e-%G', strtotime($noticia->created_at))}}</span>
+                                                    <p class="custom-thumb-info-category">{{$noticia->categoria}}</p>
+                                                    <h4 class="mb-sm">
+                                                        <a href="{{route('blog.show', $noticia->id)}}" class="text-decoration-none text-color-dark">
+                                                            {{$noticia->titulo}}
+                                                        </a>
+                                                    </h4>
+                                                    <p>{{$noticia->contenido}}</p>
+                                                </span>
+                                            </article>
+                                        </div>
+                                    @endforeach
+                                    @endif
+
                                 </div>
                             </div>
                         </div>
                         <div class="row center">
                             <div class="col-md-12">
-                                <a href="#" class="btn custom-btn-style-1 text-color-dark">Todas las noticias</a>
+                                <a href="{{route('blog.index')}}" class="btn custom-btn-style-1 text-color-dark">Todas las noticias</a>
                             </div>
                         </div>
                     </div>

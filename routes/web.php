@@ -11,11 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pagina/index');
-});
+//Route::get('/', function () {
+	Route::get('/', 'VistaNoticiasController@seccion_noticias');
+   // return view('pagina/index', 'VistaNoticiasController@seccion_noticias');
+//});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::resource('/noticias', 'NoticiasController');
+Route::resource('/blog', 'VistaNoticiasController');

@@ -14,16 +14,16 @@
             <table class="table" style="margin-top: 20px">
 			  <thead>
 			    <tr>
-			      <th scope="col">#</th>
 			      <th scope="col">Titulo</th>
 			      <th scope="col">Categoria</th>
-			      <th scope="col">Handle</th>
+			      <th scope="col"></th>
 			    </tr>
 			  </thead>
 			  <tbody>
+			  	
 			  	@foreach($noticias as $noticia)
 			    <tr>
-			      <th scope="row">1</th>
+
 			      <td><a href="{{route('noticias.show', $noticia->id)}}">{{$noticia->titulo}}</a></td>
 			      <td>{{$noticia->categoria}}</td>
 			      <td>

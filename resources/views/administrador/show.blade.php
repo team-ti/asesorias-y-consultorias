@@ -3,11 +3,11 @@
 @section('content')
 
 <div class="container">
-	<form  action="{{route("noticias.update", $noticia->id)}}" method="POST" enctype="multipart/form-data">
+	<form  action="{{route('noticias.update', $noticia->id)}}" method="POST" enctype="multipart/form-data">
         {!! csrf_field() !!}
         <input name="_method" type="hidden" value="PUT">
               
-        <h1 align="center" style="font-weight: bold;">Registro de Noticias</h1>
+        <h1 align="center" style="font-weight: bold;">Editar Noticia</h1>
 
         @if (count($errors) > 0)
 

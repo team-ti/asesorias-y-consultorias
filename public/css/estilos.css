@@ -3,6 +3,21 @@
   src: url(/fonts/JosefinSans-SemiBoldItalic.ttf);
 }
 
+.img-blog{
+	height: 170px;
+	object-fit: cover;
+}
+.articulo-blog{
+	height: 387px;
+	margin-bottom: 20px;
+}
+.img-show{
+	margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
 .tipo-letra{
 	font-family: bree;
 }

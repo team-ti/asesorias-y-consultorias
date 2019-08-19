@@ -58,6 +58,8 @@ class NoticiasController extends Controller
             $file = $request->file('imagen');
             $imagen = time().$file->getClientOriginalName();
             $file->move(public_path().'/imagenes/',$imagen);
+        }else{
+            $imagen="";
         }
 
         $this->validate($request, [
@@ -73,6 +75,7 @@ class NoticiasController extends Controller
         $noticias ->contenido = $request->Cuerpo;
         $noticias ->categoria = $request->inputCategoria;
         $noticias->imagen = $imagen;
+      
 
 
        $noticias ->save(); 
@@ -120,10 +123,10 @@ class NoticiasController extends Controller
 
         $imagen_b = Noticia::find($id);
         $imagen_delete = $imagen_b->imagen;
-
-         if(\File::exists(public_path('/imagenes/'.$imagen_delete))){
-         \File::delete(public_path('/imagenes/'.$imagen_delete)); 
+        if(\File::exists(public_path('/imagenes/'.$imagen_delete))){
+             \File::delete(public_path('/imagenes/'.$imagen_delete)); 
         }
+         
 
         $this->validate($request, [
             'inputTitulo' => 'required',
@@ -132,10 +135,13 @@ class NoticiasController extends Controller
         ]);
 
         if ($request->hasFile('imagen')) {
+            
             $file = $request->file('imagen');
             $imagen = time().$file->getClientOriginalName();
             $file->move(public_path().'/imagenes/',$imagen);
             $noticias->imagen = $imagen;
+        }else{
+            $imagen = "";
         }
 
         $noticias->titulo = $request->inputTitulo;
@@ -163,4 +169,6 @@ class NoticiasController extends Controller
         Session::flash('msj', 'Noticia eliminada');
         return redirect()->route('noticias.index');
     }
+
+   
 }
