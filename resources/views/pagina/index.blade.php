@@ -13,7 +13,7 @@
         <meta name="author" content="okler.net">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/asesoria/logo.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 
         <!-- Mobile Metas -->
@@ -69,9 +69,7 @@
                         <div class="header-row">
                             <div class="header-column custom-divider-1">
                                 <div class="header-logo">
-                                    <a href="demo-one-page-agency.html">
                                         <img alt="Logo" width="100%" src="img/asesoria/logo-ep.png">
-                                    </a>
                                 </div>
                             </div>
                             <div class="header-column">
@@ -105,7 +103,7 @@
                                                     </li>
                                                 
                                                     <li>
-                                                        <a href="#googlemaps" data-hash>
+                                                        <a href="#contactanos" data-hash>
                                                             Contáctanos
                                                         </a>
                                                     </li>
@@ -161,7 +159,7 @@
                                     data-fontsize="70"
                                     data-transform_in="y:[-300%];opacity:0;s:500;">Contratacion Pública y Privada</h1>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:35px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
                                     data-start="1500"
@@ -171,7 +169,7 @@
                                     data-transform_out="opacity:0;s:500;"
                                     data-mask_in="x:0px;y:0px;">Asesoría Empresarial</div>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:45px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
                                     data-start="2000"
@@ -193,7 +191,7 @@
                                     data-fontsize="80"
                                     data-transform_in="y:[-300%];opacity:0;s:500;">Capacitación</h1>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:35px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
                                     data-start="1500"
@@ -203,7 +201,7 @@
                                     data-transform_out="opacity:0;s:500;"
                                     data-mask_in="x:0px;y:0px;">Conferencias</div>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:45px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
                                     data-start="2000"
@@ -226,7 +224,7 @@
                                     data-fontsize="80"
                                     data-transform_in="y:[-300%];opacity:0;s:500;">Asesorías en Construcción</h1>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:35px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:35px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['-10','-10','-10','0']"
                                     data-start="1500"
@@ -236,7 +234,7 @@
                                     data-transform_out="opacity:0;s:500;"
                                     data-mask_in="x:0px;y:0px;">Interventorias</div>
 
-                                <div class="tp-caption text-color-light texto-borde tipo-letra" style="margin-top:45px"
+                                <div class="tp-caption text-color-light texto-borde tipo-letra-cabin" style="margin-top:45px"
                                     data-x="['left','left','left','left']" data-hoffset="['0','0','30','85']"
                                     data-y="['center','center','center','center']" data-voffset="['15','15','15','35']"
                                     data-start="2000"
@@ -346,9 +344,9 @@
                     </div>
                 </section>
 
-                
+                <div id="blog" style="margin-bottom: 50px"></div>
                
-                <section id="blog" class="section section-no-border  background-color-light  m-none">
+                <section  class="section section-no-border  background-color-light  m-none">
                     <div class="container">
                         <div class="row center">
                             <div class="col-md-12">
@@ -485,8 +483,10 @@
                 </section>
 
 
+                <div id="contactanos"></div>
 
-                <section class="section section-background section-footer" style="background-image: url(img/asesoria/contactanos.jpg); background-position: 100%; background-size: cover;">
+
+                <section  class="section section-background section-footer" style="background-image: url(img/asesoria/contactanos.jpg); background-position: 100%; background-size: cover;">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-md-offset-6">
@@ -544,7 +544,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <a href="demo-law-firm.html" class="logo mb-md">
+                            <a  class="logo mb-md">
                                 <img alt="Porto Website Template" class="img-responsive" width="400" height="180" src="img/logo-ep-bn.png">
                             </a>
 
@@ -563,15 +563,21 @@
                                 <li class="social-icons-facebook"><a href="https://www.facebook.com/EP-Asesor%C3%ADas-Consultor%C3%ADas-SAS-2324590117791636/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                                 <li class="social-icons-instagram"><a href="https://www.instagram.com/epasesoriasyconsultorias/" target="_blank" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
                             </ul>
+            
                         </div>
                     </div>
                 </div>
                 <div class="footer-copyright">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
-                                <p>© Copyright 2019. Todos los derechos reservados. | <a href="demo-law-firm-contact-us.html"></a></p>
+                            <div class="col-md-4">
+                                <p>© Copyright 2019. Todos los derechos reservados. | </p>
                                 <a style="color:#555; font-size: 8px;">Business photo created by freepik - www.freepik.com</a>
+                            </div>
+                            <div class="col-md-5">
+                            </div>
+                            <div class="col-md-2">
+                                <a href="{{route('noticias.index')}}" target="_blank" title="Iniciar Sesión">Iniciar Sesión</a>
                             </div>
                         </div>
                     </div>

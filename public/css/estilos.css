@@ -3,9 +3,19 @@
   src: url(/fonts/JosefinSans-SemiBoldItalic.ttf);
 }
 
+@font-face {
+  font-family: cabin;
+  src: url(/fonts/Cabin-RegularItalic.ttf);
+}
+
 .tipo-letra{
 	font-family: bree;
 }
+
+.tipo-letra-cabin{
+	font-family: cabin;
+}
+
 #header .header-body{
 	background: #fff;
 	border:none;
