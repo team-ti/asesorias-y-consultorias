@@ -54,7 +54,7 @@
           </div>
 	        <div class="form-group col-md-7" >
 	            <label for="inputLead" style="margin-top: 10px; font-weight: bold;">Texto Resumen*</label>
-	            <textarea class="form-control" rows="7" id="inputLead" name="inputLead" placeholder="Texto resumen" required="required" maxlength="500" value="{{ old('inputLead') }}"></textarea>
+	            <textarea class="form-control" rows="7" id="inputLead" name="inputLead" placeholder="Texto resumen" required="required" maxlength="92" value="{{ old('inputLead') }}"></textarea>
 	        </div>
 	      </div>
 

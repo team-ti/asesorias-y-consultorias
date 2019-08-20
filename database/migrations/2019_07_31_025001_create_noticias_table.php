@@ -20,6 +20,7 @@ class CreateNoticiasTable extends Migration
             $table->text('resumen');
             $table->text('imagen');
             $table->text('contenido');
+            $table->text('categoria');
         });
     }
 
